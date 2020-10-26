@@ -1,0 +1,148 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+header{
+    background-image: url(../img/bradcam.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    color: #fff;
+    margin-bottom: 200px;
+}
+
+#main-container #menu{
+    padding: 20px 0;
+}
+
+header #menu ul{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header #menu ul li{
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+header #menu ul li a{
+    color: #fff;
+
+}
+
+header #menu ul li a:hover{
+    color: #262626;
+    opacity: 0.83;
+}
+
+header #menu ul #logo{
+    margin-right: 40%;
+    margin-left: 100px;
+}
+
+/* Main container */
+
+#main-container header main{
+    margin: 0px auto;
+    width: 1050px;
+}
+
+#main-container header main div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#main-container header main .text h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+#main-container header main .text p{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+button{
+    background: #24d9e6;
+    border: 0;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 20px 25px;
+    margin: 40px 0px;
+}
+
+button:hover{
+    background-color: #14929b;
+}
+
+#main-container header main img{
+    width: 450px;
+}
+
+#main-container header main .image{
+    text-align: right;
+    width: 550px;
+}
+
+/* Features */
+
+.layout{
+    width: 1000px;
+    margin: 250px auto;
+}
+
+.layout div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.layout h3{
+    font-size: 40px;
+    padding: 25px;
+}
+
+.layout p{
+    padding: 25px 0px;
+    line-height: 30px;
+}
+
+.layout-left .text{
+    width: 300px;
+}
+
+.layout-left .image{
+    width: 500px;
+    margin-left: 120px;
+    text-align: right;
+}
+
+.layout-right .image{
+    width: 500px;
+    text-align: right;
+
+}
+.layout-right .text{
+    width: 300px;
+    margin-left: 120px;
+}
+
+
+/* Footer */
+
+footer{
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+}
